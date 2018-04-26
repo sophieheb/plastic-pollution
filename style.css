@@ -9,7 +9,8 @@
   display: none;
 }
 
-h1 {
+
+h1{
   width: 100%;
   text-align: center;
 }
@@ -26,20 +27,16 @@ header {
   align-self: flex-start;
 }
 
-body {
+body{
   font-family: 'Josefin Sans', sans-serif;
+
 }
 
 section {
   padding: 0px 30px;
   text-align: center;
   height: 100%;
-  flex-basis: 40%;
-}
-
-img {
-  width: 50px;
-  height: 50px;
+  flex-basis: 30%;
 }
 
 #info {
@@ -47,6 +44,12 @@ img {
   background-position: center;
   background-size: cover;
   color: white;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
 
 @media (max-width: 600px){
@@ -57,6 +60,6 @@ img {
 
   #info {
     align-self: flex-start;
-    height: 150px;
+    height: 200px;
   }
 }
