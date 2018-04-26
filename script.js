@@ -5,7 +5,7 @@ $(document).ready(function() {
   "Recycle where you can. That goes for in public and at home!",
   "Talk to your friends and family about reducing their plastic use",
   "Buy a reusuable coffee mug, and ask your coffee shop to serve you your morning pick me up in it."
-                ]
+]
 
   $('img').click(function(){
     // Get action item
